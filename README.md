@@ -6,7 +6,7 @@ Personal eslint configuration
 
 In your project, create a file named `eslint.config.js`, import from `eslint-config-jbrems` and export as default.
 
-```ecmaScript6
+```js
 import jbremsEslintConfig from 'eslint-config-jbrems';
 
 export default jbremsEslintConfig;
@@ -16,7 +16,7 @@ This configuration uses the (new eslint flat config format)[https://eslint.org/d
 
 To extends or override the configuration, destructure it and add it at the start of your flat config array.
 
-```ecmaScript6
+```js
 import jbremsEslintConfig from 'eslint-config-jbrems';
 
 export default [
