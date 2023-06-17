@@ -14,7 +14,7 @@ export default jbremsEslintConfig;
 
 This configuration uses the [new eslint flat config format](https://eslint.org/docs/latest/use/configure/configuration-files-new#using-plugins-in-your-configuration) which no longer supports the `extends` option.
 
-To extends or override the configuration, destructure it and add it at the start of your flat config array.
+To extend or override the configuration, destructure it and add it at the start of your flat config array.
 
 ```js
 import jbremsEslintConfig from 'eslint-config-jbrems';
