@@ -4,8 +4,5 @@ Personal eslint configuration
 
 ## Installation
 ```
-npm i -D eslint-config-jbrems
+npm init @eslint/config@latest -- --config eslint-config-jbrems
 ```
-
-## Usage
-Add `eslint-config-jbrems` to your `extends` array in your `eslint` config.
