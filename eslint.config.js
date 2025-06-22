@@ -1,4 +1,9 @@
-module.exports = {
+import jsdoc from 'eslint-plugin-jsdoc'
+
+export default {
+  plugins: {
+    jsdoc,
+  },
   rules: {
     semi: ['error', 'never'],
     'comma-dangle': ['error', 'always-multiline'],
@@ -7,5 +12,8 @@ module.exports = {
     quotes: ['error', 'single'],
     'array-bracket-spacing': ['error', 'never'],
     'object-curly-spacing': ['error', 'always'],
+    'jsdoc/check-alignment': 'error',
+    'jsdoc/check-indentation': 'error',
+    'jsdoc/require-hyphen-before-param-description': 'error',
   },
 }
